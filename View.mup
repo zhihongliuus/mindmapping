@@ -9,11 +9,87 @@
       "ideas": {
         "1": {
           "title": "onCreate",
-          "id": 22,
+          "id": 24,
           "ideas": {
             "1": {
               "title": "setContentView",
-              "id": 23
+              "id": 25
+            },
+            "2": {
+              "title": "findViewById",
+              "id": 27,
+              "ideas": {
+                "1": {
+                  "title": "setOnClickListener",
+                  "id": 28,
+                  "ideas": {
+                    "1": {
+                      "title": "new View.OnClickListener",
+                      "id": 30,
+                      "ideas": {
+                        "1": {
+                          "title": "@Override onClick",
+                          "id": 29
+                        }
+                      },
+                      "attr": {
+                        "style": {}
+                      }
+                    },
+                    "2": {
+                      "title": "anonymous inner classes",
+                      "id": 31,
+                      "attr": {
+                        "style": {
+                          "background": "#ffff00"
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "2": {
+          "title": "onStart",
+          "id": 38
+        },
+        "3": {
+          "title": "onPause",
+          "id": 39,
+          "ideas": {
+            "1": {
+              "title": "partial invisibility",
+              "id": 43
+            }
+          }
+        },
+        "4": {
+          "title": "onResume",
+          "id": 40
+        },
+        "5": {
+          "title": "onStop",
+          "id": 41,
+          "ideas": {
+            "1": {
+              "title": "full invisibility",
+              "id": 44
+            }
+          }
+        },
+        "6": {
+          "title": "onDestroy",
+          "id": 42
+        },
+        "7": {
+          "title": "onSaveInstanceState",
+          "id": 45,
+          "ideas": {
+            "1": {
+              "title": "savedInstanceState.putInt()",
+              "id": 46
             }
           }
         }
@@ -75,17 +151,59 @@
         },
         "1.875": {
           "title": "Button",
-          "id": 17
+          "id": 17,
+          "ideas": {
+            "1": {
+              "title": "android:src",
+              "id": 37
+            }
+          }
         }
       }
     },
+    "3": {
+      "title": "string",
+      "id": 33
+    },
     "-1": {
       "title": "eclipse",
-      "id": 7
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "Ctrl+Shift+O: imports",
+          "id": 26
+        },
+        "2": {
+          "title": "Ctrl+Space: auto-complete",
+          "id": 32
+        }
+      }
     },
-    "0.5": {
+    "-0.5": {
       "title": "MVC",
-      "id": 11
+      "id": 11,
+      "attr": {
+        "position": [
+          199.20000000000005,
+          -148,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "m: Objects",
+          "id": 34
+        },
+        "2": {
+          "title": "c:Activity",
+          "id": 35
+        },
+        "3": {
+          "title": "v:layout",
+          "id": 36
+        }
+      }
     }
   },
   "links": []
