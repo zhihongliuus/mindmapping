@@ -1,11 +1,56 @@
 {
-  "title": "View",
+  "title": "Android-programming",
   "id": 1,
   "formatVersion": 2,
   "ideas": {
     "1": {
-      "title": "FrameFrag",
-      "id": 4
+      "title": "Activity",
+      "id": 2,
+      "ideas": {}
+    },
+    "2": {
+      "title": "layout",
+      "id": 8,
+      "ideas": {
+        "1": {
+          "title": "RelativeLayout",
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "android:layout_toRightOf",
+              "id": 15
+            }
+          }
+        },
+        "2": {
+          "title": "xmlns:android",
+          "id": 12,
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          }
+        },
+        "1.5": {
+          "title": "LinearLayout",
+          "id": 13,
+          "ideas": {
+            "1": {
+              "title": "android:orientation",
+              "id": 14
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "eclipse",
+      "id": 7
+    },
+    "0.5": {
+      "title": "MVC",
+      "id": 11
     }
-  }
+  },
+  "links": []
 }
