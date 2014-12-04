@@ -48,6 +48,10 @@
                   }
                 }
               }
+            },
+            "3": {
+              "title": "if (savedInstanceState != null)",
+              "id": 47
             }
           }
         },
@@ -92,6 +96,15 @@
               "id": 46
             }
           }
+        },
+        "8": {
+          "title": "Log",
+          "id": 48
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ff9900"
         }
       }
     },
@@ -158,6 +171,11 @@
               "id": 37
             }
           }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ccffff"
         }
       }
     },
