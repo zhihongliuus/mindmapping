@@ -3,7 +3,166 @@
   "id": 1,
   "formatVersion": 2,
   "ideas": {
-    "1": {
+    "2": {
+      "title": "layout",
+      "id": 8,
+      "ideas": {
+        "1": {
+          "title": "RelativeLayout",
+          "id": 9,
+          "ideas": {
+            "1": {
+              "title": "android:layout_toRightOf",
+              "id": 15
+            }
+          }
+        },
+        "2": {
+          "title": "xmlns:android",
+          "id": 12,
+          "attr": {
+            "style": {
+              "background": "#ffff00"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "android:layout_width=\"match_parent\"",
+              "id": 18,
+              "ideas": {}
+            },
+            "2": {
+              "title": "android:layout_with=\"wrap_content\"",
+              "id": 20
+            }
+          }
+        },
+        "1.5": {
+          "title": "LinearLayout",
+          "id": 13,
+          "ideas": {
+            "1": {
+              "title": "android:orientation",
+              "id": 14
+            }
+          }
+        },
+        "1.75": {
+          "title": "TextView",
+          "id": 16,
+          "ideas": {
+            "1": {
+              "title": "android:padding=\"24dp\"",
+              "id": 21
+            }
+          }
+        },
+        "1.875": {
+          "title": "Button",
+          "id": 17,
+          "ideas": {
+            "1": {
+              "title": "android:src",
+              "id": 37
+            }
+          }
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#ccffff"
+        },
+        "position": [
+          555.5,
+          147,
+          3
+        ]
+      }
+    },
+    "3": {
+      "title": "string",
+      "id": 33
+    },
+    "13": {
+      "title": "AndroidManifest.xml",
+      "id": 50,
+      "ideas": {
+        "1": {
+          "title": "activity",
+          "id": 51,
+          "ideas": {
+            "1": {
+              "title": "android:name",
+              "id": 52
+            }
+          }
+        }
+      }
+    },
+    "-1": {
+      "title": "eclipse",
+      "id": 7,
+      "ideas": {
+        "1": {
+          "title": "Ctrl+Shift+O: imports",
+          "id": 26
+        },
+        "2": {
+          "title": "Ctrl+Space: auto-complete",
+          "id": 32
+        }
+      }
+    },
+    "-0.5": {
+      "title": "MVC",
+      "id": 11,
+      "attr": {
+        "position": [
+          199.20000000000005,
+          -148,
+          1
+        ],
+        "style": {}
+      },
+      "ideas": {
+        "1": {
+          "title": "m: Objects",
+          "id": 34
+        },
+        "2": {
+          "title": "c:Activity",
+          "id": 35
+        },
+        "3": {
+          "title": "v:layout",
+          "id": 36
+        }
+      }
+    },
+    "1.5": {
+      "title": "Intent",
+      "id": 53,
+      "ideas": {
+        "1": {
+          "title": "explict",
+          "id": 55
+        },
+        "2": {
+          "title": "implicit",
+          "id": 56
+        },
+        "3": {
+          "title": "extra",
+          "id": 57
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#666699"
+        }
+      }
+    },
+    "0.75": {
       "title": "Activity",
       "id": 2,
       "ideas": {
@@ -138,166 +297,21 @@
         "11": {
           "title": "onActivityResult",
           "id": 61
+        },
+        "12": {
+          "title": "@TargetApi(11)",
+          "id": 62
         }
       },
       "attr": {
         "style": {
           "background": "#ff9900"
-        }
-      }
-    },
-    "2": {
-      "title": "layout",
-      "id": 8,
-      "ideas": {
-        "1": {
-          "title": "RelativeLayout",
-          "id": 9,
-          "ideas": {
-            "1": {
-              "title": "android:layout_toRightOf",
-              "id": 15
-            }
-          }
         },
-        "2": {
-          "title": "xmlns:android",
-          "id": 12,
-          "attr": {
-            "style": {
-              "background": "#ffff00"
-            }
-          },
-          "ideas": {
-            "1": {
-              "title": "android:layout_width=\"match_parent\"",
-              "id": 18,
-              "ideas": {}
-            },
-            "2": {
-              "title": "android:layout_with=\"wrap_content\"",
-              "id": 20
-            }
-          }
-        },
-        "1.5": {
-          "title": "LinearLayout",
-          "id": 13,
-          "ideas": {
-            "1": {
-              "title": "android:orientation",
-              "id": 14
-            }
-          }
-        },
-        "1.75": {
-          "title": "TextView",
-          "id": 16,
-          "ideas": {
-            "1": {
-              "title": "android:padding=\"24dp\"",
-              "id": 21
-            }
-          }
-        },
-        "1.875": {
-          "title": "Button",
-          "id": 17,
-          "ideas": {
-            "1": {
-              "title": "android:src",
-              "id": 37
-            }
-          }
-        }
-      },
-      "attr": {
-        "style": {
-          "background": "#ccffff"
-        }
-      }
-    },
-    "3": {
-      "title": "string",
-      "id": 33
-    },
-    "13": {
-      "title": "AndroidManifest.xml",
-      "id": 50,
-      "ideas": {
-        "1": {
-          "title": "activity",
-          "id": 51,
-          "ideas": {
-            "1": {
-              "title": "android:name",
-              "id": 52
-            }
-          }
-        }
-      }
-    },
-    "-1": {
-      "title": "eclipse",
-      "id": 7,
-      "ideas": {
-        "1": {
-          "title": "Ctrl+Shift+O: imports",
-          "id": 26
-        },
-        "2": {
-          "title": "Ctrl+Space: auto-complete",
-          "id": 32
-        }
-      }
-    },
-    "-0.5": {
-      "title": "MVC",
-      "id": 11,
-      "attr": {
         "position": [
-          199.20000000000005,
-          -148,
-          1
-        ],
-        "style": {}
-      },
-      "ideas": {
-        "1": {
-          "title": "m: Objects",
-          "id": 34
-        },
-        "2": {
-          "title": "c:Activity",
-          "id": 35
-        },
-        "3": {
-          "title": "v:layout",
-          "id": 36
-        }
-      }
-    },
-    "1.5": {
-      "title": "Intent",
-      "id": 53,
-      "ideas": {
-        "1": {
-          "title": "explict",
-          "id": 55
-        },
-        "2": {
-          "title": "implicit",
-          "id": 56
-        },
-        "3": {
-          "title": "extra",
-          "id": 57
-        }
-      },
-      "attr": {
-        "style": {
-          "background": "#666699"
-        }
+          120.5,
+          -315,
+          4
+        ]
       }
     }
   },
