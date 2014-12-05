@@ -53,6 +53,11 @@
               "title": "if (savedInstanceState != null)",
               "id": 47
             }
+          },
+          "attr": {
+            "style": {
+              "background": "#ffcc00"
+            }
           }
         },
         "2": {
@@ -95,11 +100,44 @@
               "title": "savedInstanceState.putInt()",
               "id": 46
             }
+          },
+          "attr": {
+            "style": {
+              "background": "#99cc00"
+            }
           }
         },
         "8": {
           "title": "Log",
-          "id": 48
+          "id": 48,
+          "ideas": {
+            "1": {
+              "title": "Logging stack traces",
+              "id": 49
+            }
+          }
+        },
+        "9": {
+          "title": "startActivity",
+          "id": 54
+        },
+        "10": {
+          "title": "startActivityForResult",
+          "id": 58,
+          "ideas": {
+            "1": {
+              "title": "Activity.RESULT_CANCELED",
+              "id": 59
+            },
+            "0.5": {
+              "title": "setResult",
+              "id": 60
+            }
+          }
+        },
+        "11": {
+          "title": "onActivityResult",
+          "id": 61
         }
       },
       "attr": {
@@ -183,6 +221,22 @@
       "title": "string",
       "id": 33
     },
+    "13": {
+      "title": "AndroidManifest.xml",
+      "id": 50,
+      "ideas": {
+        "1": {
+          "title": "activity",
+          "id": 51,
+          "ideas": {
+            "1": {
+              "title": "android:name",
+              "id": 52
+            }
+          }
+        }
+      }
+    },
     "-1": {
       "title": "eclipse",
       "id": 7,
@@ -220,6 +274,29 @@
         "3": {
           "title": "v:layout",
           "id": 36
+        }
+      }
+    },
+    "1.5": {
+      "title": "Intent",
+      "id": 53,
+      "ideas": {
+        "1": {
+          "title": "explict",
+          "id": 55
+        },
+        "2": {
+          "title": "implicit",
+          "id": 56
+        },
+        "3": {
+          "title": "extra",
+          "id": 57
+        }
+      },
+      "attr": {
+        "style": {
+          "background": "#666699"
         }
       }
     }
