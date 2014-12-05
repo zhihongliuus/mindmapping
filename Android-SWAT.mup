@@ -1,0 +1,142 @@
+{
+  "title": "Android",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "1": {
+      "title": "Kernel",
+      "id": 2,
+      "ideas": {
+        "1": {
+          "title": "Bootloader",
+          "id": 4
+        },
+        "2": {
+          "title": "Display",
+          "id": 5
+        },
+        "3": {
+          "title": "Battery Management",
+          "id": 6
+        },
+        "4": {
+          "title": "Accessories detection",
+          "id": 7
+        },
+        "5": {
+          "title": "LED",
+          "id": 8
+        },
+        "6": {
+          "title": "USB",
+          "id": 9
+        },
+        "7": {
+          "title": "Vibrator",
+          "id": 11
+        },
+        "8": {
+          "title": "Thermal",
+          "id": 12
+        }
+      },
+      "attr": {
+        "style": {}
+      }
+    },
+    "-1": {
+      "title": "FW/HAL",
+      "id": 13,
+      "ideas": {
+        "1": {
+          "title": "Installation",
+          "id": 14
+        },
+        "2": {
+          "title": "Backup",
+          "id": 15
+        },
+        "3": {
+          "title": "Runtime",
+          "id": 16
+        },
+        "4": {
+          "title": "Power  Management",
+          "id": 17
+        },
+        "5": {
+          "title": "External storage",
+          "id": 18
+        },
+        "6": {
+          "title": "HW mgmt",
+          "id": 19
+        },
+        "7": {
+          "title": "Security",
+          "id": 20,
+          "ideas": {
+            "1": {
+              "title": "encryption",
+              "id": 21
+            },
+            "2": {
+              "title": "SIM lock",
+              "id": 22,
+              "ideas": {}
+            },
+            "3": {
+              "title": "Cryptographic",
+              "id": 24
+            }
+          },
+          "attr": {
+            "style": {
+              "background": "#D24D57"
+            }
+          }
+        },
+        "8": {
+          "title": "Services",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "Notification",
+              "id": 26
+            },
+            "2": {
+              "title": "Status Bar",
+              "id": 27
+            },
+            "3": {
+              "title": "Alarm",
+              "id": 28
+            },
+            "4": {
+              "title": "Storage monitor",
+              "id": 29
+            },
+            "5": {
+              "title": "Search",
+              "id": 30
+            },
+            "6": {
+              "title": "Accessibility",
+              "id": 31
+            }
+          }
+        },
+        "9": {
+          "title": "Safe mode",
+          "id": 35
+        }
+      }
+    }
+  },
+  "links": [],
+  "attr": {
+    "style": {
+      "background": "#336E7B"
+    }
+  }
+}
